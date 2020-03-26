@@ -1,4 +1,27 @@
-h1 {
-color:red;
+.nav {
+font-family: cursive; 
+display: flex;
+justify-content: space-between;
+background-color: #27ae60;
+height: 8vh;
 }
 
+body {font-family: cursive;
+    margin: 0;
+
+}
+
+.nav h1 {
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 10px;
+    align-self: center
+
+}
+
+.nav-items li{
+    color:whitesmoke;
+    list-style: none;
+    display: inline
+
+}
