@@ -1,3 +1,39 @@
-.header-text {
-    color: crimson;
+body {
+    font-family: fantasy;
+    margin: 0;
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+background-color: gold;
+height: 10vh
+}
+
+.nav h1 {
+    color: darkblue;
+    margin-left: 20px;
+    align-self: center;    
+}
+
+.nav-items li {
+    color: darkblue;
+    list-style: none;
+    display: inline;
+    align-self: center;   
+
+}
+
+.nav-items li a {
+   text-decoration: none; 
+   color: darkblue;
+}
+
+.nav-items {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.nav-items li:not(:last-child) {
+    margin-right: 10px;
 }
