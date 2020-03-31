@@ -1,6 +1,9 @@
 .home {
-
    height: 90vh;
    background-color: linen;
-display: flex;
+   display: flex;
+
 justify-content: center;
+align-items: center;
+
+}
