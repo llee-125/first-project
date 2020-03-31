@@ -2,39 +2,38 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
-
+/* 1st nav bar */
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: violet;
-    height: 20vh
+    background-color: rosybrown;
+    height: 10vh
 }
-
+/* Louise and Home About Contact*/
 .nav h1 {
-    color:darkorchid;
+    color: darkred;
     margin: 0;
     margin-left: 20px;
     align-self: center;    
 }
-
-.nav-items li {
-    color: darkblue;
-    list-style: none;
-    display: inline;
-    align-self: center;   
-
-}
-
-.nav-items li a {
-   text-decoration: none; 
-   color: darkblue;
-}
-
+/* Contact spacing */
 .nav-items {
     align-self: center;
     margin-right: 20px;
 }
 
+/* Format removing bullets */
+.nav-items li {
+    list-style: none;
+    display: inline;
+}
+
+/* Home and About hyperlink Style*/
+.nav-items li a {
+   text-decoration: none; 
+   color: darkred;
+}
+/* Spacing between */
 .nav-items li:not(:last-child) {
     margin-right: 10px;
 }
